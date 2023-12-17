@@ -1,0 +1,128 @@
+
+body,h1,h2,p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.div{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px  ; /*short hand property */
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+#logo{
+    color: #316FF6;
+    font-size: 55px;
+   
+}
+.signup-form{
+    background-color:#fff;
+    width: 430px;
+    border-radius: 8px;
+
+}
+.form-heading{
+    text-align: center;
+    padding: 10px;/* give spacing bottom of the content*/
+    border-bottom: 1px solid #ccc; /* give the line bottom of the content */
+
+    
+}
+h2{
+    padding-bottom: 6px;
+}
+.input-feilds{
+
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+input,select{
+    padding: 10px;
+    border:1px solid #ccc ;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+   
+}
+.off-width{
+    display: flex;
+    width: 48%;
+    
+}
+.full-width{
+    display: flex;
+    width: 100%;
+}
+label{
+    font-size: 12px;
+    color: #606770;
+    padding-bottom: 10px;
+}
+.dob-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.quot-width{
+    display: flex;
+    width: 31%;
+}
+.radio-btn{
+    border:1px solid #ccc ;
+    border-radius: 5px;
+    width: 100%;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio-label{
+    padding-bottom: 0;
+    font-size: 15px;
+}
+.radio-input{
+    margin: 0;
+    width: auto;
+}
+small{
+    font-size: 11.5px;
+    color: #777;
+    padding-top: 8px ;
+}
+a{
+    text-decoration: none;
+}
+.button-div{
+    padding: 15px 0;
+    display: flex;
+    justify-content:center ;
+    width: 100%;
+}
+.signup-btn{
+    border: 0;
+    background-color: #00a400;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 55px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.account-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 7px;
+    padding-top: 10px;
+
+}
